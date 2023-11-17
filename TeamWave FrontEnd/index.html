@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TeamWave Homepage</title>
+    <meta property="og:title" content="TeamWave Homepage" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <header data-thq="thq-navbar" class="home-navbar">
+          <span class="home-logo">TeamWave</span>
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="home-desktop-menu"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="home-nav"
+            >
+              <button class="home-button button-clean button">About</button>
+              <button class="home-button1 button-clean button">Features</button>
+              <button class="home-button2 button-clean button">Pricing</button>
+              <button class="home-button3 button-clean button">Contact</button>
+            </nav>
+          </div>
+          <div data-thq="thq-navbar-btn-group" class="home-btn-group">
+            <div class="home-socials">
+              <button class="social button">
+                <img
+                  alt="image"
+                  src="public/Icons/twitter.svg"
+                  class="home-image"
+                />
+              </button>
+            </div>
+            <button class="home-view button">Get Started</button>
+          </div>
+          <div data-thq="thq-burger-menu" class="home-burger-menu">
+            <button class="button home-button4">
+              <svg viewBox="0 0 1024 1024" class="home-icon">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="home-nav1"
+            >
+              <div class="home-container1">
+                <span class="home-logo1">Character</span>
+                <div data-thq="thq-close-menu" class="home-menu-close">
+                  <svg viewBox="0 0 1024 1024" class="home-icon02">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="home-nav2"
+              >
+                <span class="home-text">About</span>
+                <span class="home-text01">Features</span>
+                <span class="home-text02">Pricing</span>
+                <span class="home-text03">Team</span>
+                <span class="home-text04">Blog</span>
+              </nav>
+              <div class="home-container2">
+                <button class="home-login button">Login</button>
+                <button class="button">Register</button>
+              </div>
+            </div>
+            <div class="home-icon-group">
+              <svg viewBox="0 0 950.8571428571428 1024" class="home-icon04">
+                <path
+                  d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                ></path></svg
+              ><svg viewBox="0 0 877.7142857142857 1024" class="home-icon06">
+                <path
+                  d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                ></path></svg
+              ><svg viewBox="0 0 602.2582857142856 1024" class="home-icon08">
+                <path
+                  d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </header>
+        <section class="home-hero">
+          <div class="home-heading">
+            <h1 class="home-header">Remote team building, reimagined</h1>
+            <p class="home-caption">
+              All-in-one solution for team building and productivity
+            </p>
+          </div>
+          <div class="home-buttons">
+            <button class="home-view1 button">Get Started</button>
+            <button class="home-learn button-clean button">Learn more</button>
+          </div>
+        </section>
+        <section class="home-description">
+          <img
+            alt="image"
+            src="public/hero-divider-1200w.png"
+            class="home-divider-image"
+          />
+          <div class="home-container3">
+            <p class="home-paragraph">
+              At TeamWave, we believe that distance should never be a barrier to
+              teamwork. In today's dynamic work landscape, where teams span the
+              globe and remote work is the new norm, we're here to empower
+              organizations with our innovative remote team building platform.
+            </p>
+            <div class="home-mining"></div>
+          </div>
+        </section>
+        <section class="home-cards">
+          <div class="home-row">
+            <div class="home-card">
+              <div class="home-avatar">
+                <img
+                  alt="image"
+                  src="public/Avatars/increase.png"
+                  class="home-avatar1"
+                />
+              </div>
+              <div class="home-main">
+                <div class="home-content">
+                  <h2 class="home-header01">Increased team productivity</h2>
+                  <p class="home-description01">
+                    Discover how TeamWave can increase your team's productivity
+                    by fostering better collaboration and engagement, transforming 
+                    your remote work experience into a dynamic and results-driven journey
+                  </p>
+                </div>
+                <button class="home-learn1 button">
+                  <span class="home-text05">Learn more</span>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow-2.svg"
+                    class="home-image1"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="home-card1">
+              <div class="home-avatar2">
+                <img
+                  alt="image"
+                  src="public/Avatars/piggy-bank.png"
+                  class="home-avatar3"
+                />
+              </div>
+              <div class="home-main1">
+                <div class="home-content1">
+                  <h2 class="home-header02">Reduced turnover costs</h2>
+                  <p class="home-description02">
+                    TeamWave's remote team building platform can help reduce
+                    employee turnover and its associated costs. Find out how
+                    investing in team building can yield significant long-term
+                    returns
+                  </p>
+                </div>
+                <button class="home-learn2 button">
+                  <span class="home-text06">Learn more</span>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow-2.svg"
+                    class="home-image2"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="home-mining1"></div>
+        </section>
+        <section class="home-collection">
+          <div class="home-content2">
+            <span class="home-caption1">Features</span>
+            <div class="home-heading1">
+              <h2 class="home-header03">Features</h2>
+              <p class="home-header04">
+                Explore the powerful features that make TeamWave the ultimate
+                solution for remote team building and collaboration
+              </p>
+            </div>
+          </div>
+          <div class="home-main2">
+            <div class="home-card2">
+              <img
+              src="public/Avatars/hands (1).png"
+              alt="Avatar Image"
+              class="home-avatar4" 
+            />
+              <h2 class="home-header05">Virtual team building activities</h2>
+              <p class="home-description03">
+                A variety of interactive virtual team activities that promote
+                remote team members' connection and collaboration, irrespective
+                of their physical locations
+              </p>
+            </div>
+            <div class="home-card3">
+              <img
+              src="public/Avatars/collaborate.png"
+              alt="Avatar Image"
+              class="home-avatar5" 
+            />
+              <h2 class="home-header06">Real-time collaboration tools</h2>
+              <p class="home-description04">
+                Real-time collaboration tools like video conferencing, chat,
+                file sharing, and virtual whiteboards, ensuring seamless remote
+                team communication and project collaboration
+              </p>
+            </div>
+            <div class="home-card4">
+              <img
+              src="public/Avatars/trophy.png"
+              alt="Avatar Image"
+              class="home-avatar6" 
+            />
+              <h2 class="home-header07">Customizable team challenges</h2>
+              <p class="home-description05">
+                With TeamWave, team leaders can customize
+                challenges&nbsp;competitions, and goals&nbsp;tailored to their
+                team's unique objectives, to motivate and drive achievement
+                within their teams.
+              </p>
+            </div>
+            <div class="home-card5">
+              <img
+              src="public/Avatars/google-analytics.png"
+              alt="Avatar Image"
+              class="home-avatar7" 
+            />
+              <h2 class="home-header08">Performance analytics and insights</h2>
+              <p class="home-description06">
+                Gain valuable insights into your team's performance and
+                engagement with TeamWave's analytics dashboard, tracking
+                participation, progress, and overall team dynamics
+              </p>
+            </div>
+          </div>
+          <button class="home-view2 button-link button">View all</button>
+        </section>
+        <section class="home-project">
+          <div class="home-understand">
+            <div class="home-content3">
+              <span class="home-caption2">Pricing</span>
+              <div class="home-heading2">
+                <h2 class="home-header09">Pricing that Surfs Your Budget</h2>
+                <p class="home-header10">
+                  Unlock the full potential of TeamWave with our flexible
+                  pricing options. We offer plans designed to meet the unique
+                  needs of teams of all sizes.
+                </p>
+              </div>
+              <button class="home-view3 button-link button">
+                <span class="home-text07">Learn More</span>
+                <img
+                  alt="image"
+                  src="public/Icons/arrow.svg"
+                  class="home-image3"
+                />
+              </button>
+            </div>
+            <img
+              alt="image"
+              src="public/Project_44-08.png"
+              class="home-image4"
+            />
+          </div>
+        </section>
+        <div class="home-mining2"></div>
+        <h2 class="home-header11">We have all the answers</h2>
+        <section class="home-faq">
+          <div class="home-accordion">
+            <div data-role="accordion-container" class="home-element accordion">
+              <div class="home-content4">
+                <span class="home-header12">
+                  What is TeamWave, and how does it work?
+                </span>
+                <span data-role="accordion-content" class="home-description07">
+                  TeamWave is a comprehensive remote team building platform
+                  designed to connect and engage teams in virtual work
+                  environments. It works by offering a range of virtual team
+                  building activities, real-time collaboration tools, and
+                  performance analytics to enhance team bonding, productivity,
+                  and communication among remote team members.
+                </span>
+              </div>
+              <div class="home-icon-container">
+                <svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon-closed"
+                  class="home-icon10"
+                >
+                  <path
+                    d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path></svg
+                ><svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon-open"
+                  class="home-icon12"
+                >
+                  <path
+                    d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div
+              data-role="accordion-container"
+              class="home-element1 accordion"
+            >
+              <div class="home-content5">
+                <span class="home-header13">
+                  Can I customize the team building activities and challenges in
+                  TeamWave?
+                </span>
+                <span data-role="accordion-content" class="home-description08">
+                  Absolutely! TeamWave allows team leaders to fully customize
+                  team building challenges, competitions, and goals to align
+                  with their team's unique objectives and preferences. This
+                  flexibility ensures that the activities are both engaging and
+                  relevant to your team's needs.
+                </span>
+              </div>
+              <div class="home-icon-container1">
+                <svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon-closed"
+                  class="home-icon14"
+                >
+                  <path
+                    d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path></svg
+                ><svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon-open"
+                  class="home-icon16"
+                >
+                  <path
+                    d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div
+              data-role="accordion-container"
+              class="home-element2 accordion"
+            >
+              <div class="home-content6">
+                <span class="home-header14">
+                  Is TeamWave compatible with other productivity tools and
+                  platforms we use?
+                </span>
+                <span data-role="accordion-content" class="home-description09">
+                  Yes, TeamWave is designed to integrate seamlessly with popular
+                  project management and productivity tools. This integration
+                  allows you to incorporate your existing workflows and tools
+                  while benefiting from enhanced team building capabilities. Our
+                  aim is to make TeamWave a complementary part of your existing
+                  toolkit.
+                </span>
+              </div>
+              <div class="home-icon-container2">
+                <svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon-closed"
+                  class="home-icon18"
+                >
+                  <path
+                    d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path></svg
+                ><svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon-open"
+                  class="home-icon20"
+                >
+                  <path
+                    d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-newsletter">
+          <div class="home-row1">
+            <div class="home-column">
+              <img
+        src="public/center-together.png"
+        alt="image"
+        class="home-image7"
+      />
+            </div>
+          </div>
+          <div class="home-card6">
+            <div class="home-container4">
+              <div class="home-content7">
+                <h2 class="home-header15">
+                  <span>Stay in the Loop with TeamWave</span>
+                  <br />
+                </h2>
+              </div>
+              <p class="home-description10">
+                <span>
+                  Get insights into the latest trends in remote teamwork.
+                </span>
+                <br />
+                <span>
+                  Receive expert tips on enhancing collaboration and
+                  productivity.
+                </span>
+                <br />
+                <span>
+                  Access exclusive promotions and discounts on TeamWave
+                  services.
+                </span>
+              </p>
+            </div>
+            <div class="home-container5">
+              <input
+                type="text"
+                placeholder="Name"
+                class="home-textinput input"
+              />
+              <input
+                type="text"
+                placeholder="Job Title"
+                class="home-textinput1 input"
+              />
+              <input
+                type="text"
+                placeholder="Email"
+                class="home-textinput2 input"
+              />
+            </div>
+            <button class="home-button5 button">
+              <span class="home-text15">
+                <span class="home-text16">Submit</span>
+                <br />
+              </span>
+            </button>
+          </div>
+        </section>
+        <section class="home-get-yours">
+          <div class="home-column1">
+            <div class="home-card7">
+              <div class="home-content8">
+                <h2 class="home-header16">Revolutionise teamwork today</h2>
+                <p class="home-description11">
+                  Experience the future of remote teamwork and ignite
+                  collaboration like never before with TeamWave, where
+                  innovation meets seamless communication
+                </p>
+              </div>
+              <button class="home-button6 button">Get Started</button>
+            </div>
+          </div>
+        </section>
+        <footer class="home-footer">
+          <div class="home-main3">
+            <div class="home-branding">
+              <div class="home-heading3">
+                <h2 class="home-logo2">TeamWave</h2>
+                <p class="home-caption3">
+                  Unlock the Potential of Your Remote Team, Making Every Wave of
+                  Collaboration Count
+                </p>
+              </div>
+              <div class="home-socials1">
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-twitter1 social button"
+                >
+                  <img
+                    alt="image"
+                    src="public/Icons/twitter.svg"
+                    class="home-image5"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="home-links">
+              <div class="home-list">
+                <h3 class="home-heading4">Site</h3>
+                <div class="home-items">
+                  <button class="home-link button-clean button">About</button>
+                  <button class="home-link1 button-clean button">
+                    Features
+                  </button>
+                  <button class="home-link2 button-clean button">
+                    Pricing
+                  </button>
+                  <button class="home-link3 button-clean button">
+                    Contact
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="home-socials2">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-twitter2 social button"
+              >
+                <img
+                  alt="image"
+                  src="public/Icons/twitter.svg"
+                  class="home-image6"
+                />
+              </a>
+            </div>
+          </div>
+          <span class="home-copyright">
+            © 2023 TeamWave. All Rights Reserved.
+          </span>
+        </footer>
+        <div>
+          <div class="home-container7">
+            <script>
+              const accordionContainers = document.querySelectorAll('[data-role="accordion-container"]'); 
+              const accordionContents = document.querySelectorAll('[data-role="accordion-content"]'); 
+              const accordionIconsClosed = document.querySelectorAll('[data-role="accordion-icon-closed"]'); 
+              const accordionIconsOpen = document.querySelectorAll('[data-role="accordion-icon-open"]'); 
+            
+              accordionContents.forEach((accordionContent) => {
+                accordionContent.style.display = 'none'; 
+              });
+            
+              accordionIconsClosed.forEach((icon) => {
+                icon.style.display = 'flex';
+              });
+            
+              accordionIconsOpen.forEach((icon) => {
+                icon.style.display = 'none';
+              });
+            
+              accordionContainers.forEach((accordionContainer, index) => {
+                accordionContainer.addEventListener('click', () => {
+                  if (accordionContents[index].style.display === 'flex') {
+                    accordionContents[index].style.display = 'none';
+                    accordionIconsClosed[index].style.display = 'flex';
+                    accordionIconsOpen[index].style.display = 'none';
+                  } else {
+                    // If the accordion is closed, open it
+                    accordionContents.forEach((accordionContent) => {
+                      accordionContent.style.display = 'none'; 
+                    });
+            
+                    accordionIconsClosed.forEach((accordionIcon) => {
+                      accordionIcon.style.display = 'flex'; 
+                    });
+            
+                    accordionIconsOpen.forEach((accordionIcon) => {
+                      accordionIcon.style.display = 'none';
+                    });
+            
+                    accordionContents[index].style.display = 'flex'; 
+                    accordionIconsClosed[index].style.display = 'none'; 
+                    accordionIconsOpen[index].style.display = 'flex';
+                  }
+                });
+              });
+            </script>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
