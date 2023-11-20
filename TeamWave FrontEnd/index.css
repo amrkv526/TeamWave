@@ -1884,4 +1884,114 @@ height: 100%;
   .home-column {
     height: 187px;
   }
+
+  @media (max-width: 320px) {
+    .home-navbar {
+      padding: var(--dl-space-space-unit);
+    }
+    .home-mobile-menu {
+      padding: 16px;
+    }
+  
+    .home-divider-image {
+      width: 300px;
+    }
+    .home-paragraph {
+      width: 300px;
+      padding-left: var(--dl-space-space-twounits);
+      padding-right: var(--dl-space-space-twounits);
+    }
+    .home-main2 {
+      width: auto;
+      align-self: center;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .home-card2 {
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .home-description03 {
+      padding-left: var(--dl-space-space-twounits);
+      padding-right: var(--dl-space-space-twounits);
+    }
+    .home-header12 {
+      font-size: 16px;
+    }
+    .home-description07 {
+      font-size: 14px;
+      align-self: flex-start;
+      line-height: 21px;
+    }
+  
+    .home-understand {
+      padding-bottom: var(--dl-space-space-fiveunits);
+      flex-direction: column;
+    }
+  
+    .home-project {
+      padding-bottom: var(--dl-space-space-fiveunits);
+    }
+
+    .home-image4 {
+      width: 310px;
+    }
+  
+    .home-mining2 {
+      margin-top: 280px;
+    }
+  
+    .home-header11 {
+      position: relative;
+      width: 310px;
+    }
+  
+    .home-card6{
+      width: 310px;
+    }
+    
+    .home-header13 {
+      font-size: 16px;
+    }
+    .home-description08 {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    .home-header14 {
+      font-size: 16px;
+    }
+    .home-description09 {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    .home-description10{
+      font-size: 16px;
+      max-width: 310px;
+      padding-left: 55px;
+      margin-bottom: 30px;
+    }
+  
+    .home-card7 {
+      width: 310px;
+    }
+    
+    .home-description11{
+      font-size: 16px;
+    }
+  
+    .home-header15{
+      height: 100px;
+    }
+    .home-newsletter {
+      height: 730px;
+    }
+    .home-row1 {
+      height: 185px;
+    }
+    .home-column {
+      height: 187px;
+    }
 }
